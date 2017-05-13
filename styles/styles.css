@@ -1,0 +1,96 @@
+h2{
+  ;
+  padding: 20px;
+}
+
+header H1{
+  background: transparent url("http://csszengarden.com/001/h1.gif") no-repeat top left;
+  width: 219px;
+  height: 87px;
+  color:green
+}
+
+* {
+    font: 95% georgia, sans-serif;
+    -webkit-margin-before: 0px;
+    -webkit-margin-after: 0px;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    font-weight: bold;
+}
+
+@media only screen and(max-width:300px) {
+  P{
+    background-color: blue;
+  }
+}
+
+P{
+   padding: 15px;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.grid {
+    margin: 0 auto;
+    max-width: 910px;
+    width: 100%;
+}
+
+.row {
+    width: 100%;
+    display: flex;
+}
+
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 91.66%;
+}
+
+.col-12 {
+    width: 100%;
+}
