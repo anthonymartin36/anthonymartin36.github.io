@@ -25,13 +25,12 @@ body {
 }
 
 @media (max-width: 550px) {
-  
+
   nav .mobileIndex { display: inline-block; }
 }
-@media (min-width: 550px) {
+@media (min-width: 500px) {
   nav .mobileIndex { display: none; }
 }
-
 
 nav .mobileIndex {
   display: none;
