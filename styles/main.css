@@ -1,0 +1,57 @@
+header {
+  background-color: black;
+  margin-bottom: 3%;
+}
+
+
+header ul {
+  list-style-type: none;
+  margin-bottom: 0;
+}
+
+header li {
+  margin-bottom: 0;
+}
+
+header a {
+  text-decoration: none;
+  float: none;
+  color: white;
+  font-size: 1em;
+  padding-right: 4em;
+}
+
+body {
+}
+
+@media (max-width: 550px) {
+  
+  nav .mobileIndex { display: inline-block; }
+}
+@media (min-width: 550px) {
+  nav .mobileIndex { display: none; }
+}
+
+
+nav .mobileIndex {
+  display: none;
+  background-color: black;
+  color: white;
+}
+.blogHeader {
+  background-color: black;
+}
+
+.blogHeader ul {
+  padding-top: 2rem;
+  margin-top: 0;
+  margin-bottom: o;
+}
+.blogHeader a {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.Hulk {
+  margin-top: 3%;
+}
