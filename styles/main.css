@@ -1,6 +1,6 @@
 @media (max-width: 550px) {
   nav ul { display: none; }
-  nav mobileIndex { display: inline-block; }
+  nav .mobileIndex { display: inline-block; }
 }
 
 header {
