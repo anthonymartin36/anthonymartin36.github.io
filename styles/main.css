@@ -3,7 +3,12 @@
   nav ul.mobileIndex { display: inline-block; }
 }
 
-header, footer {
+main {
+  background-color: white;
+  Padding: 3px;
+}
+
+header {
   background-color: navy;
   margin-bottom: 3%;
 }
@@ -26,8 +31,9 @@ header  a {
 }
 
 footer {
-  background-color: navy;
   margin-bottom: 20px;
+  padding-bottom: 100px;
+  background-color: navy;
 }
 
 footer  ul {
@@ -68,6 +74,20 @@ nav .mobileIndex {
   padding-bottom: 0;
 }
 
+.blogFooter {
+  background-color: navy;
+}
+
+.blogFooter ul {
+  padding-top: 2rem;
+  margin-top: 0;
+  margin-bottom: o;
+}
+
+.blogFooter a {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
 
 
 .article {
