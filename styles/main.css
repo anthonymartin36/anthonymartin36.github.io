@@ -3,6 +3,10 @@
   nav ul.mobileIndex { display: inline-block; }
 }
 
+table {
+    width: 100%;
+}
+
 main {
   background-color: white;
   Padding: 3px;
@@ -30,8 +34,42 @@ header  a {
   padding-right: 4em;
 }
 
+.blogHeader {
+  background-color: navy;
+}
+
+.blogHeader ul {
+  padding-top: 2rem;
+  margin-top: 0;
+  margin-bottom: o;
+}
+
+.blogHeader a {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+
+
+.wireframeImg {
+    width: 300px;
+    padding: 1rem;
+}
+
+.article {
+  margin: 3px;
+  background-color: white;
+}
+
+nav .mobileIndex {
+  display: none;
+  background-color: navy;
+  color: white;
+}
+
+
+
 footer {
-  margin-bottom: 20px;
   padding-bottom: 100px;
   background-color: navy;
 }
@@ -53,27 +91,6 @@ footer  a {
   padding-right: 4em;
 }
 
-nav .mobileIndex {
-  display: none;
-  background-color: navy;
-  color: white;
-}
-
-.blogHeader {
-  background-color: navy;
-}
-
-.blogHeader ul {
-  padding-top: 2rem;
-  margin-top: 0;
-  margin-bottom: o;
-}
-
-.blogHeader a {
-  margin-bottom: 0;
-  padding-bottom: 0;
-}
-
 .blogFooter {
   background-color: navy;
 }
@@ -87,10 +104,4 @@ nav .mobileIndex {
 .blogFooter a {
   margin-bottom: 0;
   padding-bottom: 0;
-}
-
-
-.article {
-  margin: 3px;
-  background-color: white;
 }
